@@ -1,0 +1,29 @@
+{
+  "name": "VideoMergerBot",
+  "description": "A bot used to merge multiple video files!",
+  "keywords": [
+    "video merger bot",
+    "divideprojects",
+    "telegram video merger bot",
+    "telegram video merger",
+    "video merger"
+  ],
+  "repository": "https://github.com/DivideProjects/VideoMergerBot",
+  "buildpacks": [
+    {
+      "url": "https://github.com/moneymeets/python-poetry-buildpack.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}

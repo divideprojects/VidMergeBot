@@ -1,0 +1,9 @@
+version: "3"
+services:
+  vidmergebot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghcr.io/divideprojects/vidmergebot:latest
+    env_file:
+      - ".env"
