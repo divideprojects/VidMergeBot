@@ -24,7 +24,7 @@ prettyconf = "^2.2.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
-pylint = "^2.14.3"
+pylint = "^2.14.4"
 pre-commit = "^2.19.0"
 pyclean = "^2.2.0"
 isort = "^5.10.1"
