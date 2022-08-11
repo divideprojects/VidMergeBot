@@ -7,7 +7,7 @@ authors = ["Divanshu Chauhan <23524935+Divkix@users.noreply.github.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 asyncio = "^3.4.3"
-Pyrogram = "^2.0.35"
+Pyrogram = "^2.0.36"
 TgCrypto = "^1.2.3"
 cchardet = "^2.1.7"
 aiodns = "^3.0.0"
