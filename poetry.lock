@@ -108,10 +108,10 @@ tomli = {version = ">=1.1.0", markers = "python_full_version < \"3.11.0a7\""}
 typing-extensions = {version = ">=3.10.0.0", markers = "python_version < \"3.10\""}
 
 [package.extras]
-colorama = ["colorama (>=0.4.3)"]
-d = ["aiohttp (>=3.7.4)"]
-jupyter = ["ipython (>=7.8.0)", "tokenize-rt (>=3.2.0)"]
 uvloop = ["uvloop (>=0.15.2)"]
+jupyter = ["tokenize-rt (>=3.2.0)", "ipython (>=7.8.0)"]
+d = ["aiohttp (>=3.7.4)"]
+colorama = ["colorama (>=0.4.3)"]
 
 [[package]]
 name = "cachetools"
@@ -222,8 +222,8 @@ optional = false
 python-versions = ">=3.7"
 
 [package.extras]
-docs = ["furo (>=2021.8.17b43)", "sphinx (>=4.1)", "sphinx-autodoc-typehints (>=1.12)"]
-testing = ["covdefaults (>=1.2.0)", "coverage (>=4)", "pytest (>=4)", "pytest-cov", "pytest-timeout (>=1.4.2)"]
+testing = ["pytest-timeout (>=1.4.2)", "pytest-cov", "pytest (>=4)", "coverage (>=4)", "covdefaults (>=1.2.0)"]
+docs = ["sphinx-autodoc-typehints (>=1.12)", "sphinx (>=4.1)", "furo (>=2021.8.17b43)"]
 
 [[package]]
 name = "frozenlist"
@@ -242,8 +242,8 @@ optional = false
 python-versions = "*"
 
 [package.extras]
+wx = ["wxPython (>=4.0.0,<5.0.0)", "darkdetect"]
 urwid = ["urwid (==1.3.1)"]
-wx = ["darkdetect", "wxPython (>=4.0.0,<5.0.0)"]
 
 [[package]]
 name = "humanfriendly"
@@ -284,10 +284,10 @@ optional = false
 python-versions = ">=3.6.1,<4.0"
 
 [package.extras]
-pipfile_deprecated_finder = ["pipreqs", "requirementslib"]
-requirements_deprecated_finder = ["pipreqs", "pip-api"]
-colors = ["colorama (>=0.4.3,<0.5.0)"]
 plugins = ["setuptools"]
+colors = ["colorama (>=0.4.3,<0.5.0)"]
+requirements_deprecated_finder = ["pip-api", "pipreqs"]
+pipfile_deprecated_finder = ["requirementslib", "pipreqs"]
 
 [[package]]
 name = "lazy-object-proxy"
@@ -346,8 +346,8 @@ optional = false
 python-versions = ">=3.7"
 
 [package.extras]
-docs = ["furo", "olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-issues (>=3.0.1)", "sphinx-removed-in", "sphinxext-opengraph"]
-tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
+tests = ["pytest-timeout", "pytest-cov", "pytest", "pyroma", "packaging", "olefile", "markdown2", "defusedxml", "coverage", "check-manifest"]
+docs = ["sphinxext-opengraph", "sphinx-removed-in", "sphinx-issues (>=3.0.1)", "sphinx-copybutton", "sphinx (>=2.4)", "olefile", "furo"]
 
 [[package]]
 name = "platformdirs"
@@ -446,8 +446,8 @@ tomlkit = ">=0.10.1"
 typing-extensions = {version = ">=3.10.0", markers = "python_version < \"3.10\""}
 
 [package.extras]
-spelling = ["pyenchant (>=3.2,<4.0)"]
 testutils = ["gitpython (>3)"]
+spelling = ["pyenchant (>=3.2,<4.0)"]
 
 [[package]]
 name = "pymongo"
@@ -476,7 +476,7 @@ python-versions = "*"
 
 [[package]]
 name = "pyrogram"
-version = "2.0.36"
+version = "2.0.38"
 description = "Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots"
 category = "main"
 optional = false
@@ -609,7 +609,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "8d8f1a45cdc5d5416748d1c441554dc0112c1ca17e83cd05202071058f696a17"
+content-hash = "961b329baba98dd280cb7160d59aa3a2d2136f3402f89a907e7ab8ad1453a044"
 
 [metadata.files]
 aiodns = [
@@ -1249,8 +1249,8 @@ pyreadline3 = [
     {file = "pyreadline3-3.4.1.tar.gz", hash = "sha256:6f3d1f7b8a31ba32b73917cefc1f28cc660562f39aea8646d30bd6eff21f7bae"},
 ]
 pyrogram = [
-    {file = "Pyrogram-2.0.36-py3-none-any.whl", hash = "sha256:96b2f4fc4915371114ea49397334fbf7967b64aedc7915e71f41bca9ab7e72c5"},
-    {file = "Pyrogram-2.0.36.tar.gz", hash = "sha256:e4d8904fee0200673b0914e2b7277a629ec484891fc573cb9ba89f011064a75f"},
+    {file = "Pyrogram-2.0.38-py3-none-any.whl", hash = "sha256:fb4af2a2f70526bc07e7d5b0aae57c7fb5c47ee38df483fca1d76064c6a3e038"},
+    {file = "Pyrogram-2.0.38.tar.gz", hash = "sha256:bc46516ed5c000c0c3a4c653045c849bc07d5f4959c27f6f053550ace5152835"},
 ]
 pyromod = []
 pysocks = [
