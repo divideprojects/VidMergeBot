@@ -18,7 +18,7 @@ Pillow = "^9.2.0"
 cachetools = "^5.2.0"
 pymongo = "^4.2.0"
 dnspython = "^2.2.1"
-aiofiles = "^0.8.0"
+aiofiles = "^22.1.0"
 pyromod = {git = "https://github.com/usernein/pyromod"}
 prettyconf = "^2.2.1"
 
