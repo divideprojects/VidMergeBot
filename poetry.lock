@@ -232,7 +232,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "hachoir"
-version = "3.1.3"
+version = "3.2.0"
 description = "Package of Hachoir parsers used to open binary files"
 category = "main"
 optional = false
@@ -597,7 +597,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.11"
-content-hash = "79faabc6c0e633a9887aa6a399a4e490336d8059479717db90ac8efb9563654c"
+content-hash = "6a0822e81924dc36a96572237f6955c4e6448f6574b2bb53407c418c8fe76611"
 
 [metadata.files]
 aiodns = [
@@ -937,8 +937,8 @@ frozenlist = [
     {file = "frozenlist-1.3.1.tar.gz", hash = "sha256:3a735e4211a04ccfa3f4833547acdf5d2f863bfeb01cfd3edaffbc251f15cec8"},
 ]
 hachoir = [
-    {file = "hachoir-3.1.3-py3-none-any.whl", hash = "sha256:2aea6a5638c52045705d8fedfd140e851653f8a47e81acb3343dba103f86eaa5"},
-    {file = "hachoir-3.1.3.tar.gz", hash = "sha256:e0ad621226bf0819acf673a73793f520f21a382f275d2f7282a5758b1f66dc52"},
+    {file = "hachoir-3.2.0-py3-none-any.whl", hash = "sha256:6e6c03ed40fa741d0cd91ee7ec381d17ef3e7f62be3e8c7562d9acb3e70b04fe"},
+    {file = "hachoir-3.2.0.tar.gz", hash = "sha256:38e3d84ecd1c75f2b22422acf5881a1d34ad4cffa7088f7e1a4c4690d12ce664"},
 ]
 humanfriendly = [
     {file = "humanfriendly-10.0-py2.py3-none-any.whl", hash = "sha256:1697e1a8a8f550fd43c2865cd84542fc175a61dcb779b6fee18cf6b6ccba1477"},
