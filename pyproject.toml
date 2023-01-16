@@ -17,7 +17,7 @@ humanfriendly = "^10.0"
 Pillow = "^9.4.0"
 cachetools = "^5.2.1"
 pymongo = "^4.3.3"
-dnspython = "^2.2.1"
+dnspython = "^2.3.0"
 aiofiles = "^22.1.0"
 pyromod = {git = "https://github.com/usernein/pyromod"}
 prettyconf = "^2.2.1"
