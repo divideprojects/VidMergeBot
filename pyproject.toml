@@ -23,7 +23,7 @@ pyromod = {git = "https://github.com/usernein/pyromod"}
 prettyconf = "^2.2.1"
 
 [tool.poetry.dev-dependencies]
-black = "^22.12.0"
+black = "^23.1.0"
 pylint = "^2.16.2"
 pre-commit = "^3.0.4"
 pyclean = "^2.6.0"
