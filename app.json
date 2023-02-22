@@ -8,7 +8,7 @@
     "telegram video merger",
     "video merger"
   ],
-  "repository": "https://github.com/DivideProjects/VideoMergerBot",
+  "repository": "https://github.com/divkix/VideoMergerBot",
   "buildpacks": [
     {
       "url": "https://github.com/moneymeets/python-poetry-buildpack.git"
