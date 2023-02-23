@@ -4,6 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ghcr.io/divideprojects/vidmergebot:latest
+    image: ghcr.io/divkix/vidmergebot:latest
     env_file:
       - ".env"
