@@ -2,7 +2,7 @@
 name = "vidmergebot"
 version = "1.5.3"
 description = ""
-authors = ["Divanshu Chauhan <23524935+Divkix@users.noreply.github.com>"]
+authors = ["Divanshu Chauhan <divkix@divkix.me>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
