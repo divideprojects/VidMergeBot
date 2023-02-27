@@ -1053,14 +1053,14 @@ idna = ["idna (>=2.1)"]
 
 [[package]]
 name = "pyclean"
-version = "2.6.0"
+version = "2.7.0"
 description = "Pure Python cross-platform pyclean. Clean up your Python bytecode."
 category = "dev"
 optional = false
 python-versions = "*"
 files = [
-    {file = "pyclean-2.6.0-py3-none-any.whl", hash = "sha256:fcf08662f86e146c0a1509d65a3624102797a74b1b65dacace2823e64462a52d"},
-    {file = "pyclean-2.6.0.tar.gz", hash = "sha256:9badd0a7f1539f522479e2db17f79df24c09e0300eeb696d37e3d40585078e27"},
+    {file = "pyclean-2.7.0-py3-none-any.whl", hash = "sha256:1d07d7173aec349babb3ae5c65f69953c5cd560f533be4954c249ed326520b28"},
+    {file = "pyclean-2.7.0.tar.gz", hash = "sha256:b26231194c56f9f58c6cba3ea57d740dee73a4554c9a3c92e2899350cc1e9183"},
 ]
 
 [[package]]
@@ -1600,4 +1600,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "be06b438de4b26379a34de6deb56089788ad202828bed3a966a00cc3421fce38"
+content-hash = "e0f23791332ac9116b28455cd550cbbaa4f1441f9b46af84a4c278a23147c534"
