@@ -1,7 +1,7 @@
 from platform import python_version
 from time import gmtime, strftime, time
 
-import pyromod.listen  # skipcq:PYL-W0611
+import pyromod  # skipcq:PYL-W0611
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
 
