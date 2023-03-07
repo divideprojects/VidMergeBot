@@ -3,7 +3,6 @@ from os import path
 from random import randint
 from time import time
 from traceback import format_exc
-from typing import List
 
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
@@ -76,7 +75,7 @@ async def gen_ss(
         return None
 
 
-async def concat_vids(m: Message, user_id: int, vid_list: List[str], outfile_name: str):
+async def concat_vids(m: Message, user_id: int, vid_list: list[str], outfile_name: str):
     file_genertor_command = [
         "ffmpeg",
         "-f",

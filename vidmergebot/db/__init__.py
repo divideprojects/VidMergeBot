@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import Any, Dict, List
+from typing import Any
 
 from vidmergebot import LOGGER
 from vidmergebot.db.mongo import MongoDB
@@ -74,14 +74,14 @@ class MainDB(MongoDB):
         return MongoDB(MainDB.db_name).delete_one({"_id": user_id})
 
     @staticmethod
-    def get_all_users() -> List[int]:
+    def get_all_users() -> list[int]:
         """
         Get all users in database
         """
         return [user["_id"] for user in MongoDB(MainDB.db_name).find_all()]
 
     @staticmethod
-    def get_all() -> List[Dict[str, Any]]:
+    def get_all() -> list[dict[str, Any]]:
         """
         Get everything from collection
         """
@@ -94,7 +94,7 @@ class MainDB(MongoDB):
         """
         return MongoDB(MainDB.db_name).count()
 
-    def __ensure_in_db(self) -> Dict[str, Any]:
+    def __ensure_in_db(self) -> dict[str, Any]:
         user_data = self.find_one({"_id": self.user_id})
         if not user_data:
             new_data = {
