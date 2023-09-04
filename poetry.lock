@@ -1255,13 +1255,13 @@ pysocks = "1.7.1"
 
 [[package]]
 name = "pyromod"
-version = "2.0.0"
+version = "2.1.0"
 description = "A monkeypatcher add-on for Pyrogram that does conversation handling"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "pyromod-2.0.0-py3-none-any.whl", hash = "sha256:eb34d31154fdb82c00c987e4e51e87615443eb183b4e79389db3d1ed394cc2c9"},
-    {file = "pyromod-2.0.0.tar.gz", hash = "sha256:f9c3a9a2d6cebe57aa5b915199e5bde26eb4c528b222439c28a90092a7d1fc5b"},
+    {file = "pyromod-2.1.0-py3-none-any.whl", hash = "sha256:91aea98cd332bca6dd32f13f178c3b1c21028f06f4ff002332be641ee94561b2"},
+    {file = "pyromod-2.1.0.tar.gz", hash = "sha256:9d71e58238f0df0c00d641ed6869ce2ef3ac3e0d65ae59759913f3c29771fc29"},
 ]
 
 [package.dependencies]
@@ -1636,4 +1636,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "ffb417ae78a17865d57bc4c51ba2604472744a99cbf151267e6440f33f304d24"
+content-hash = "f4fbec60204f0211049d93d762154b9cd231122ca6da6964c9532baeb27f8eb8"
