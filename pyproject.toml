@@ -19,7 +19,7 @@ pymongo = "^4.6.0"
 dnspython = "^2.4.2"
 aiofiles = "^23.2.1"
 prettyconf = "^2.2.1"
-pyromod = "^2.1.0"
+pyromod = "^3.1.5"
 
 [tool.poetry.dev-dependencies]
 black = "^23.10.1"
