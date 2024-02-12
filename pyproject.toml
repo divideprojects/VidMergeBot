@@ -24,7 +24,7 @@ pyromod = "^2.1.0"
 [tool.poetry.dev-dependencies]
 black = "^23.12.1"
 pylint = "^3.0.2"
-pre-commit = "^3.6.0"
+pre-commit = "^3.6.1"
 pyclean = "^2.7.6"
 isort = "^5.13.2"
 
