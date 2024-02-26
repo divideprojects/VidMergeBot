@@ -37,6 +37,6 @@ repos:
         args: ["--profile", "black", "--filter-files"]
 
   - repo: https://github.com/PyCQA/autoflake
-    rev: v2.2.1
+    rev: v2.3.0
     hooks:
       - id: autoflake
